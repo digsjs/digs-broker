@@ -1,6 +1,6 @@
 {
   "name": "digs-broker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fallback MQTT Broker for digs",
   "main": "index.js",
   "scripts": {
