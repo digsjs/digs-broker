@@ -23,5 +23,11 @@
     "debug": "^2.2.0",
     "lodash": "^3.9.3",
     "mqtt": "^1.2.0"
+  },
+  "devDependencies": {
+    "digs-dev": "^0.1.6"
+  },
+  "scripts": {
+    "prepublish": "node node_modules/digs-dev ."
   }
 }
