@@ -4,7 +4,7 @@
   "description": "Fallback MQTT Broker for digs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "node node_modules/digs-dev ."
   },
   "repository": {
     "type": "git",
@@ -21,13 +21,12 @@
   "homepage": "https://github.com/digsjs/digs-broker#readme",
   "dependencies": {
     "debug": "^2.2.0",
+    "digs-common": "^0.2.0",
+    "joi": "^6.4.3",
     "lodash": "^3.9.3",
     "mqtt": "^1.2.0"
   },
   "devDependencies": {
     "digs-dev": "^0.1.6"
-  },
-  "scripts": {
-    "prepublish": "node node_modules/digs-dev ."
   }
 }
