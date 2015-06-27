@@ -11,6 +11,9 @@
     "url": "git+https://github.com/digsjs/digs-broker.git"
   },
   "keywords": [
+    "digs-plugin",
+    "mqtt",
+    "broker",
     "digs"
   ],
   "author": "Christopher Hiller <boneskull@boneskull.com>",
