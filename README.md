@@ -1,4 +1,4 @@
-# digs-broker
+# digs-mqtt-broker
 
 *A feature-incomplete fallback implementation of an MQTT broker, used by [digs](https://github.com/digsjs/digs), a home automation server.*
 
